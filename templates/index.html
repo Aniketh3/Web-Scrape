@@ -10,42 +10,41 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
 
         body {
-            background-color: #fff9e6;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            color: #333;
         }
 
         header {
-            background-color: #000000;
-            color: #ffffff;
-            padding: 2rem;
+            background: #343a40;
+            color: white;
+            padding: 1rem;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-bottom: 4px solid #ffd700;
+            border-bottom: 4px solid #ffcc00;
         }
 
         .container {
             flex: 1;
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background-color: white;
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 3rem;
+            background: rgba(255, 255, 255, 0.8);
             border-radius: 15px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             text-align: center;
+            backdrop-filter: blur(10px);
         }
 
-        h2 {
-            color: #333;
-            margin-bottom: 2rem;
-            font-size: 1.8rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        h1, h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
         }
 
         .button-container {
@@ -53,44 +52,47 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 1.5rem;
+            margin-top: 2rem;
         }
 
         button {
-            background-color: #ffd700;
-            color: #000000;
+            background: linear-gradient(to right, #ffcc00, #ff9900);
+            color: #fff;
             padding: 1.2rem 2.5rem;
             border: none;
             border-radius: 30px;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             font-weight: bold;
             cursor: pointer;
             transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
         }
 
         button:hover {
-            background-color: #ffcc00;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #ff9900, #ff6600);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
         }
 
         footer {
-            background-color: #000000;
+            background: #343a40;
             color: white;
             text-align: center;
-            padding: 1.5rem;
+            padding: 1rem;
             margin-top: auto;
-            border-top: 4px solid #ffd700;
+            border-top: 4px solid #ffcc00;
         }
 
         @media (max-width: 768px) {
             .container {
                 margin: 1rem;
-                padding: 1.5rem;
+                padding: 2rem;
             }
-            
+            h1, h2 {
+                font-size: 2rem;
+            }
             button {
                 width: 100%;
                 padding: 1rem;
@@ -100,11 +102,12 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the Web Scraper</h1>
+        <h1>Welcome to Web Scraper</h1>
     </header>
     
     <div class="container">
-        <h2>Select a Page to View Scraped Content</h2>
+        <h2>Extract Valuable Data with Ease</h2>
+        <p>Scrape data from different categories and enhance your knowledge.</p>
         <div class="button-container">
             <a href="{{ url_for('page1') }}"><button>Physics</button></a>
             <a href="{{ url_for('page2') }}"><button>Biology</button></a>
@@ -114,7 +117,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2025 Web Scraper Project</p>
+        <p>&copy; 2025 Web Scraper Project | All Rights Reserved</p>
     </footer>
 </body>
 </html>
