@@ -1,0 +1,244 @@
+{
+    "1.": {
+        "name": "Structure: Models of the Particulate Nature of Matter",
+        "subtopics": {
+            "1.1": {
+                "name": "Ideal Gases",
+                "sub-subtopics": {
+                    "1.1.1": "Gas laws: Boyle's law, Charles's law, Avogadro's law",
+                    "1.1.2": "Real gases vs ideal gases",
+                    "1.1.3": "Applications of the ideal gas law",
+                    "1.1.4": "Ideal gas law (PV = nRT)"
+                }
+            },
+            "1.2": {
+                "name": "Introduction to the Particulate Nature of Matter",
+                "sub-subtopics": {
+                    "1.2.1": "Properties of matter",
+                    "1.2.2": "Molecular theory and the nature of matter",
+                    "1.2.3": "Solid, liquid, gas phases and changes of state"
+                }
+            },
+            "1.3": {
+                "name": "The Nuclear Atom",
+                "sub-subtopics": {
+                    "1.3.1": "Structure of the atom: Protons, neutrons, electrons",
+                    "1.3.2": "Atomic number, mass number, isotopes",
+                    "1.3.3": "Atomic models: Bohr model, quantum model"
+                }
+            },
+            "1.4": {
+                "name": "Electron Configurations",
+                "sub-subtopics": {
+                    "1.4.1": "Electron arrangement and atomic orbitals",
+                    "1.4.2": "Aufbau principle, Pauli exclusion principle, Hund's rule",
+                    "1.4.3": "Periodicity of electron configurations"
+                }
+            },
+            "1.5": {
+                "name": "Counting Particles by Mass: The Mole",
+                "sub-subtopics": {
+                    "1.5.1": "Definition of the mole and Avogadro's constant",
+                    "1.5.2": "Molar mass and its calculation",
+                    "1.5.3": "Conversions between moles, mass, and number of particles",
+                    "1.5.4": "Empirical and molecular formulas"
+                }
+            }
+        }
+    },
+    "2.": {
+        "name": "Reactivity: How Much, How Fast, and How Far?",
+        "subtopics": {
+            "2.1": {
+                "name": "How Far? The Extent of Chemical Change",
+                "sub-subtopics": {
+                    "2.1.1": "Calculating equilibrium constants (Kc)",
+                    "2.1.2": "Shifting equilibrium: Concentration, pressure, and temperature effects",
+                    "2.1.3": "Chemical equilibrium and Le Chatelier’s Principle"
+                }
+            },
+            "2.2": {
+                "name": "How Much? The Amount of Chemical Change",
+                "sub-subtopics": {
+                    "2.2.1": "Stoichiometry and mole-to-mole ratios",
+                    "2.2.2": "Limiting reagents and theoretical yield",
+                    "2.2.3": "Concentration, volume, and number of particles"
+                }
+            },
+            "2.3": {
+                "name": "How Fast? The Rate of Chemical Change",
+                "sub-subtopics": {
+                    "2.3.1": "Factors affecting reaction rates: Concentration, temperature, surface area, catalysts",
+                    "2.3.2": "Rate law and order of reactions",
+                    "2.3.3": "Collision theory and activation energy"
+                }
+            }
+        }
+    },
+    "3.": {
+        "name": "Structure: Classification of Matter",
+        "subtopics": {
+            "3.1": {
+                "name": "Functional Groups: Classification of Organic Compounds",
+                "sub-subtopics": {
+                    "3.1.1": "Alcohols, aldehydes, ketones, carboxylic acids, and amines",
+                    "3.1.2": "Isomerism and structural formulas",
+                    "3.1.3": "IUPAC naming conventions for organic compounds",
+                    "3.1.4": "Introduction to organic chemistry and functional groups"
+                }
+            },
+            "3.2": {
+                "name": "The Periodic Table: Classification of Elements",
+                "sub-subtopics": {
+                    "3.2.1": "Periodic trends: Atomic radius, ionization energy, electronegativity",
+                    "3.2.2": "Group classification of elements",
+                    "3.2.3": "Transition metals and their unique properties"
+                }
+            }
+        }
+    },
+    "4.": {
+        "name": "Experimental Programme",
+        "subtopics": {
+            "4.1": {
+                "name": "Scientific Investigation",
+                "sub-subtopics": {
+                    "4.1.1": "Designing experiments and gathering data",
+                    "4.1.2": "Writing and presenting scientific reports",
+                    "4.1.3": "Formulating hypotheses and research questions"
+                }
+            },
+            "4.2": {
+                "name": "Practical Work",
+                "sub-subtopics": {
+                    "4.2.1": "Laboratory safety protocols and techniques",
+                    "4.2.2": "Common chemical reactions in the laboratory",
+                    "4.2.3": "Data collection, analysis, and interpretation",
+                    "4.2.4": "Precision, accuracy, and error analysis"
+                }
+            },
+            "4.3": {
+                "name": "Collaborative Sciences Project",
+                "sub-subtopics": {
+                    "4.3.1": "Group-based scientific inquiry",
+                    "4.3.2": "Interdisciplinary applications of chemistry",
+                    "4.3.3": "Effective communication in scientific collaboration"
+                }
+            }
+        }
+    },
+    "5.": {
+        "name": "Structure: Models of Bonding and Structure",
+        "subtopics": {
+            "5.1": {
+                "name": "The Ionic Model",
+                "sub-subtopics": {
+                    "5.1.1": "Ionic bonding and formation of ions",
+                    "5.1.2": "Properties of ionic compounds",
+                    "5.1.3": "Lattice structure in ionic solids",
+                    "5.1.4": "Conductivity and solubility of ionic compounds"
+                }
+            },
+            "5.2": {
+                "name": "The Covalent Model",
+                "sub-subtopics": {
+                    "5.2.1": "Covalent bonding and electron sharing",
+                    "5.2.2": "Single, double, and triple bonds",
+                    "5.2.3": "Polar vs non-polar covalent bonds",
+                    "5.2.4": "Bonding in simple molecules (e.g., H₂O, CO₂)"
+                }
+            },
+            "5.3": {
+                "name": "The Metallic Model",
+                "sub-subtopics": {
+                    "5.3.1": "Metallic bonding and electron sea model",
+                    "5.3.2": "Electrical conductivity of metals",
+                    "5.3.3": "Properties of metals: Malleability, ductility, high melting points"
+                }
+            },
+            "5.4": {
+                "name": "From Models to Materials",
+                "sub-subtopics": {
+                    "5.4.1": "Solids, liquids, and gases: Structural differences",
+                    "5.4.2": "Physical properties of materials",
+                    "5.4.3": "Nanotechnology and applications",
+                    "5.4.4": "Alloys and their properties"
+                }
+            }
+        }
+    },
+    "6.": {
+        "name": "Reactivity: What Are the Mechanisms of Chemical Change?",
+        "subtopics": {
+            "6.1": {
+                "name": "Proton Transfer Reactions",
+                "sub-subtopics": {
+                    "6.1.1": "Acid-base reactions: Bronsted-Lowry theory",
+                    "6.1.2": "Strong vs weak acids and bases",
+                    "6.1.3": "pH scale and calculations"
+                }
+            },
+            "6.2": {
+                "name": "Electron Transfer Reactions",
+                "sub-subtopics": {
+                    "6.2.1": "Redox reactions and electron transfer",
+                    "6.2.2": "Oxidizing and reducing agents",
+                    "6.2.3": "Electrochemical cells and half-reactions"
+                }
+            },
+            "6.3": {
+                "name": "Electron Sharing Reactions",
+                "sub-subtopics": {
+                    "6.3.1": "Covalent bonds and electron sharing",
+                    "6.3.2": "Polar vs non-polar covalent bonds in molecular compounds",
+                    "6.3.3": "Electronegativity and bond polarity"
+                }
+            },
+            "6.4": {
+                "name": "Electron-Pair Sharing Reactions",
+                "sub-subtopics": {
+                    "6.4.1": "Lewis acids and bases",
+                    "6.4.2": "Coordinate covalent bonding",
+                    "6.4.3": "Complex ion formation"
+                }
+            }
+        }
+    },
+    "7.": {
+        "name": "Reactivity: What Drives Chemical Reactions?",
+        "subtopics": {
+            "7.1": {
+                "name": "Measuring Enthalpy Change",
+                "sub-subtopics": {
+                    "7.1.1": "Enthalpy of reaction, heat capacity, and calorimetry",
+                    "7.1.2": "Exothermic vs endothermic reactions",
+                    "7.1.3": "Hess's Law and enthalpy cycles"
+                }
+            },
+            "7.2": {
+                "name": "Energy Cycles in Reactions",
+                "sub-subtopics": {
+                    "7.2.1": "Thermochemistry and enthalpy diagrams",
+                    "7.2.2": "Born-Haber cycle and lattice enthalpy",
+                    "7.2.3": "Bond dissociation and bond formation energies"
+                }
+            },
+            "7.3": {
+                "name": "Energy from Fuels",
+                "sub-subtopics": {
+                    "7.3.1": "Combustion reactions and energy release",
+                    "7.3.2": "Fuels and their efficiency",
+                    "7.3.3": "Energy density of different fuels (e.g., hydrocarbons, biofuels)"
+                }
+            },
+            "7.4": {
+                "name": "Entropy and Spontaneity (Additional Higher Level)",
+                "sub-subtopics": {
+                    "7.4.1": "Entropy and the second law of thermodynamics",
+                    "7.4.2": "Spontaneous vs non-spontaneous processes",
+                    "7.4.3": "Gibbs free energy and its application to chemical reactions"
+                }
+            }
+        }
+    }
+}

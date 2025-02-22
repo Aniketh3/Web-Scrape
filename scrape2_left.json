@@ -1,0 +1,390 @@
+{
+    "1.": {
+        "name": "Interaction and Interdependence",
+        "subtopics": {
+            "1.1": {
+                "name": "Transfer of Energy and Matter",
+                "sub-subtopics": {
+                    "1.1.1": "Biogeochemical cycles: Carbon, nitrogen, and water cycles",
+                    "1.1.2": "Energy efficiency and ecological pyramids",
+                    "1.1.3": "Energy flow in ecosystems: Trophic levels and food webs"
+                }
+            },
+            "1.2": {
+                "name": "Photosynthesis",
+                "sub-subtopics": {
+                    "1.2.1": "Chloroplast structure and function",
+                    "1.2.2": "Photosystem II and I",
+                    "1.2.3": "Calvin cycle and carbon fixation",
+                    "1.2.4": "The light-dependent and light-independent reactions"
+                }
+            },
+            "1.3": {
+                "name": "Chemical Signaling",
+                "sub-subtopics": {
+                    "1.3.1": "Types of chemical signals: Hormones, neurotransmitters",
+                    "1.3.2": "Signal transduction pathways",
+                    "1.3.3": "Receptor-ligand interactions",
+                    "1.3.4": "G-protein coupled receptors"
+                }
+            },
+            "1.4": {
+                "name": "Neural Signaling",
+                "sub-subtopics": {
+                    "1.4.1": "Structure of neurons",
+                    "1.4.2": "Action potential and neurotransmission",
+                    "1.4.3": "Synaptic transmission",
+                    "1.4.4": "Nervous system coordination and reflex arcs"
+                }
+            },
+            "1.5": {
+                "name": "Integration of Body Systems",
+                "sub-subtopics": {
+                    "1.5.1": "Homeostasis and feedback mechanisms",
+                    "1.5.2": "Endocrine and nervous system integration",
+                    "1.5.3": "Coordination of digestive, excretory, and circulatory systems"
+                }
+            },
+            "1.6": {
+                "name": "Enzymes and Metabolism",
+                "sub-subtopics": {
+                    "1.6.1": "Enzyme structure and function",
+                    "1.6.2": "Enzyme kinetics and inhibition",
+                    "1.6.3": "Metabolic pathways: Anabolism and catabolism",
+                    "1.6.4": "ATP synthesis and energy transfer"
+                }
+            },
+            "1.7": {
+                "name": "Defence Against Disease",
+                "sub-subtopics": {
+                    "1.7.1": "Immune response: Innate vs adaptive immunity",
+                    "1.7.2": "Antigens and antibodies",
+                    "1.7.3": "Vaccines and immunity",
+                    "1.7.4": "Disorders of the immune system (e.g. autoimmune diseases)"
+                }
+            },
+            "1.8": {
+                "name": "Cell Respiration",
+                "sub-subtopics": {
+                    "1.8.1": "Glycolysis, Krebs cycle, and oxidative phosphorylation",
+                    "1.8.2": "Aerobic vs anaerobic respiration",
+                    "1.8.3": "Role of mitochondria in energy production",
+                    "1.8.4": "Energy yield in cellular respiration"
+                }
+            },
+            "1.9": {
+                "name": "Populations and Communities",
+                "sub-subtopics": {
+                    "1.9.1": "Population dynamics: Growth models, carrying capacity",
+                    "1.9.2": "Community interactions: Competition, predation, mutualism",
+                    "1.9.3": "Succession in ecosystems"
+                }
+            }
+        }
+    },
+    "2.": {
+        "name": "Continuity and Change",
+        "subtopics": {
+            "2.1": {
+                "name": "Reproduction",
+                "sub-subtopics": {
+                    "2.1.1": "Reproductive strategies",
+                    "2.1.2": "Asexual vs sexual reproduction",
+                    "2.1.3": "Sexual cycles in animals and plants"
+                }
+            },
+            "2.2": {
+                "name": "Inheritance",
+                "sub-subtopics": {
+                    "2.2.1": "Mendelian inheritance",
+                    "2.2.2": "Punnett squares and genetic ratios",
+                    "2.2.3": "Genetic disorders and gene linkage"
+                }
+            },
+            "2.3": {
+                "name": "DNA Replication",
+                "sub-subtopics": {
+                    "2.3.1": "DNA structure and replication mechanism",
+                    "2.3.2": "Enzymes involved in DNA replication",
+                    "2.3.3": "Replication errors and repair mechanisms"
+                }
+            },
+            "2.4": {
+                "name": "Protein Synthesis",
+                "sub-subtopics": {
+                    "2.4.1": "Transcription and translation processes",
+                    "2.4.2": "Role of mRNA, tRNA, and ribosomes",
+                    "2.4.3": "Post-translational modifications"
+                }
+            },
+            "2.5": {
+                "name": "Homeostasis",
+                "sub-subtopics": {
+                    "2.5.1": "Mechanisms of temperature, pH, and water balance",
+                    "2.5.2": "Regulation of blood glucose levels",
+                    "2.5.3": "Feedback loops in homeostasis"
+                }
+            },
+            "2.6": {
+                "name": "Mutations and Gene Editing",
+                "sub-subtopics": {
+                    "2.6.1": "Types of mutations: Point, frameshift, chromosomal",
+                    "2.6.2": "Causes and effects of mutations",
+                    "2.6.3": "Gene editing technologies (e.g. CRISPR)"
+                }
+            },
+            "2.7": {
+                "name": "Natural Selection",
+                "sub-subtopics": {
+                    "2.7.1": "Mechanisms of natural selection",
+                    "2.7.2": "Adaptations and evolutionary fitness",
+                    "2.7.3": "Evidence for evolution"
+                }
+            },
+            "2.8": {
+                "name": "Cell and Nuclear Division",
+                "sub-subtopics": {
+                    "2.8.1": "Mitosis vs meiosis",
+                    "2.8.2": "Phases of mitosis and meiosis",
+                    "2.8.3": "Chromosome number and genetic variation"
+                }
+            },
+            "2.9": {
+                "name": "Sustainability and Change",
+                "sub-subtopics": {
+                    "2.9.1": "Sustainable agricultural practices",
+                    "2.9.2": "Renewable resources and ecological conservation",
+                    "2.9.3": "Impact of human activity on the environment"
+                }
+            },
+            "2.10": {
+                "name": "Gene Expression",
+                "sub-subtopics": {
+                    "2.10.1": "Regulatory mechanisms of gene expression",
+                    "2.10.2": "Operon model (lac operon)",
+                    "2.10.3": "Epigenetic control of gene expression"
+                }
+            },
+            "2.11": {
+                "name": "Water Potential",
+                "sub-subtopics": {
+                    "2.11.1": "Concept of water potential in plants",
+                    "2.11.2": "Osmosis and water movement in cells",
+                    "2.11.3": "Importance in plant hydration and transport"
+                }
+            },
+            "2.12": {
+                "name": "Climate Change",
+                "sub-subtopics": {
+                    "2.12.1": "Causes and effects of climate change",
+                    "2.12.2": "Greenhouse gases and global warming",
+                    "2.12.3": "Mitigation strategies and global agreements"
+                }
+            }
+        }
+    },
+    "3.": {
+        "name": "Unity and Diversity",
+        "subtopics": {
+            "3.1": {
+                "name": "Viruses",
+                "sub-subtopics": {
+                    "3.1.1": "Replication of viruses",
+                    "3.1.2": "Viral infections and diseases",
+                    "3.1.3": "Virus-host interactions",
+                    "3.1.4": "Vaccines and antivirals",
+                    "3.1.5": "Structure and classification of viruses"
+                }
+            },
+            "3.2": {
+                "name": "Water",
+                "sub-subtopics": {
+                    "3.2.1": "Properties of water",
+                    "3.2.2": "Role of water in living organisms",
+                    "3.2.3": "Water as a solvent",
+                    "3.2.4": "Water’s role in temperature regulation",
+                    "3.2.5": "Water potential in plants"
+                }
+            },
+            "3.3": {
+                "name": "Diversity of Organisms",
+                "sub-subtopics": {
+                    "3.3.1": "Classification systems",
+                    "3.3.2": "The Linnaean system",
+                    "3.3.3": "Evolutionary relationships and cladistics",
+                    "3.3.4": "Phylogeny and taxonomy",
+                    "3.3.5": "Domain-based classification"
+                }
+            },
+            "3.4": {
+                "name": "Nucleic Acids",
+                "sub-subtopics": {
+                    "3.4.1": "Structure of DNA and RNA",
+                    "3.4.2": "DNA replication and transcription",
+                    "3.4.3": "RNA and protein synthesis (translation)",
+                    "3.4.4": "Gene expression regulation",
+                    "3.4.5": "Biotechnology applications: Recombinant DNA"
+                }
+            },
+            "3.5": {
+                "name": "Classification and Cladistics",
+                "sub-subtopics": {
+                    "3.5.1": "The three domains of life",
+                    "3.5.2": "Evolutionary trees and cladograms",
+                    "3.5.3": "Molecular vs morphological evidence in classification",
+                    "3.5.4": "Role of genetic sequencing in classification"
+                }
+            },
+            "3.6": {
+                "name": "Origins of Cells",
+                "sub-subtopics": {
+                    "3.6.1": "Endosymbiotic theory",
+                    "3.6.2": "Origin of eukaryotic cells",
+                    "3.6.3": "Miller-Urey experiment",
+                    "3.6.4": "Evolution of cells"
+                }
+            },
+            "3.7": {
+                "name": "Evolution and Speciation",
+                "sub-subtopics": {
+                    "3.7.1": "Theories of evolution (Darwin, Lamarck)",
+                    "3.7.2": "Mechanisms of evolution: Natural selection, genetic drift, gene flow",
+                    "3.7.3": "Speciation: Allopatric and sympatric",
+                    "3.7.4": "Adaptive radiation"
+                }
+            },
+            "3.8": {
+                "name": "Cell Structure",
+                "sub-subtopics": {
+                    "3.8.1": "Prokaryotic vs eukaryotic cells",
+                    "3.8.2": "Organelles and their functions",
+                    "3.8.3": "Membrane structure and fluid mosaic model",
+                    "3.8.4": "Role of ribosomes, mitochondria, and chloroplasts",
+                    "3.8.5": "Cell communication and signaling"
+                }
+            },
+            "3.9": {
+                "name": "Conservation of Biodiversity",
+                "sub-subtopics": {
+                    "3.9.1": "Importance of biodiversity",
+                    "3.9.2": "Human impact on ecosystems and biodiversity",
+                    "3.9.3": "Conservation methods: In situ vs ex situ",
+                    "3.9.4": "Sustainable development and conservation ethics"
+                }
+            }
+        }
+    },
+    "4.": {
+        "name": "Form and Function",
+        "subtopics": {
+            "4.1": {
+                "name": "Transport",
+                "sub-subtopics": {
+                    "4.1.1": "Blood circulation in mammals (cardiovascular system)",
+                    "4.1.2": "Role of the heart and blood vessels",
+                    "4.1.3": "Transport of gases and nutrients in animals and plants",
+                    "4.1.4": "Circulatory systems: Open vs closed"
+                }
+            },
+            "4.2": {
+                "name": "Carbohydrates and Lipids",
+                "sub-subtopics": {
+                    "4.2.1": "Metabolism of glucose",
+                    "4.2.2": "Role of lipids in energy storage",
+                    "4.2.3": "Membrane structure: Phospholipid bilayer",
+                    "4.2.4": "Structure and function of carbohydrates and lipids"
+                }
+            },
+            "4.3": {
+                "name": "Muscle and Motility",
+                "sub-subtopics": {
+                    "4.3.1": "Muscle structure and contraction mechanisms",
+                    "4.3.2": "Types of muscles: Skeletal, smooth, cardiac",
+                    "4.3.3": "Motor proteins and motility in cells"
+                }
+            },
+            "4.4": {
+                "name": "Proteins",
+                "sub-subtopics": {
+                    "4.4.1": "Structure of proteins: Primary to quaternary structure",
+                    "4.4.2": "Enzymes as biological catalysts",
+                    "4.4.3": "Protein folding and denaturation",
+                    "4.4.4": "Functions of proteins in cells"
+                }
+            },
+            "4.5": {
+                "name": "Adaptation to Environment",
+                "sub-subtopics": {
+                    "4.5.1": "Structural, behavioral, and physiological adaptations",
+                    "4.5.2": "Adaptation to extreme environments (e.g. deserts\tpolar regions)",
+                    "4.5.3": "Adaptations in animals and plants to survive in specific habitats"
+                }
+            },
+            "4.6": {
+                "name": "Membranes and Membrane Transport",
+                "sub-subtopics": {
+                    "4.6.1": "Structure and properties of cell membranes",
+                    "4.6.2": "Passive transport: Diffusion, osmosis",
+                    "4.6.3": "Active transport: Pumps, endocytosis, exocytosis",
+                    "4.6.4": "Membrane potential and action potentials"
+                }
+            },
+            "4.7": {
+                "name": "Ecological Niches",
+                "sub-subtopics": {
+                    "4.7.1": "Ecological niche concept",
+                    "4.7.2": "Role of organisms in ecosystems",
+                    "4.7.3": "Competition, predation, and symbiosis",
+                    "4.7.4": "Fundamental vs realized niches"
+                }
+            },
+            "4.8": {
+                "name": "Organelles and Compartmentalization",
+                "sub-subtopics": {
+                    "4.8.1": "Role of organelles in cellular function",
+                    "4.8.2": "Endoplasmic reticulum, Golgi apparatus, mitochondria, and nucleus",
+                    "4.8.3": "Compartmentalization of processes in eukaryotic cells"
+                }
+            },
+            "4.9": {
+                "name": "Cell Specialization",
+                "sub-subtopics": {
+                    "4.9.1": "Stem cells and differentiation",
+                    "4.9.2": "Types of specialized cells (e.g. muscle, nerve, blood)",
+                    "4.9.3": "Tissue types and their functions"
+                }
+            },
+            "4.10": {
+                "name": "Gas Exchange",
+                "sub-subtopics": {
+                    "4.10.1": "Respiratory structures in animals and plants",
+                    "4.10.2": "Mechanisms of gas exchange: Diffusion, active transport",
+                    "4.10.3": "Human respiratory system",
+                    "4.10.4": "Plant gas exchange: Stomata, leaf structure"
+                }
+            }
+        }
+    },
+    "5.": {
+        "name": "Experimental Programme",
+        "subtopics": {
+            "5.1": {
+                "name": "Collaborative Sciences Project",
+                "sub-subtopics": {
+                    "5.1.1": "Project-based learning and scientific communication",
+                    "5.1.2": "Collaborative interdisciplinary projects",
+                    "5.1.3": "Team-based scientific inquiry"
+                }
+            },
+            "5.2": {
+                "name": "Scientific Investigation",
+                "sub-subtopics": {
+                    "5.2.1": "Formulation of research questions",
+                    "5.2.2": "Hypothesis testing",
+                    "5.2.3": "Data collection and analysis",
+                    "5.2.4": "Writing scientific reports"
+                }
+            }
+        }
+    }
+}

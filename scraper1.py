@@ -25,8 +25,6 @@ def scrape_website():
             tag.decompose()
         for tag in soup.find_all("img"):
             tag.decompose()
-        for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
-            comment.extract()  # Removes the comment
         for tag in soup.find_all("div", class_=classRemove):
             tag.decompose()
 
@@ -55,7 +53,7 @@ def scrape_website():
         print(json.dumps(topics_dict, indent=4, ensure_ascii=False))
 
 # Save dictionary as JSON
-        with open("scrape1_content.json", "w", encoding="utf-8") as json_file:
+        with open("scrape1_left.json", "w", encoding="utf-8") as json_file:
             json.dump(topics_dict, json_file, indent=4, ensure_ascii=False)
 
 ############################################################################################
