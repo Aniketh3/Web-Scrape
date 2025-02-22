@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scraped Content - Page 1</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuXkf7XY3CSX4rH2BT0LrpMRd2Gmu7jWTvQ&s" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -25,6 +26,7 @@
             height: 100vh;
             overflow-y: auto;
             box-shadow: 5px 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
         }
 
         .sidebar h2 {
@@ -48,15 +50,11 @@
             border-left: 3px solid #ffd700;
         }
 
-        /* .topic:hover {
-            background: rgba(255, 255, 255, 0.3);
-            cursor: pointer;
-            transform: scale(1.03);
-        } */
-
         .subtopics ul {
             padding-left: 15px;
             list-style-type: none;
+            max-height: 200px;
+            overflow-y: auto;
         }
 
         .subtopics li {
@@ -73,11 +71,10 @@
         .main-content {
             width: 75%;
             padding: 30px;
-            background: white;
-            height: 100vh;
-            overflow-y: auto;
             background: linear-gradient(135deg, #f0f5ff, #ffffff);
             box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            height: 100vh;
         }
 
         .main-content h2 {
@@ -98,17 +95,49 @@
             font-size: 16px;
             color: #444;
         }
+
+        /* Responsive Sidebar */
+        @media (max-width: 768px) {
+            .sidebar {
+                position: fixed;
+                left: -100%;
+                width: 60%;
+                height: 100vh;
+                z-index: 1000;
+            }
+
+            .sidebar.active {
+                left: 0;
+            }
+
+            .toggle-btn {
+                position: fixed;
+                left: 10px;
+                top: 10px;
+                background: #ffd700;
+                color: black;
+                padding: 10px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                z-index: 1100;
+            }
+
+            .main-content {
+                width: 100%;
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <!-- Sidebar for Topics -->
-    <div class="sidebar">
+    <div class="toggle-btn" onclick="toggleSidebar()">☰</div>
+    <div class="sidebar" id="sidebar">
         <h2>Topics</h2>
         <div id="sidebar-container">
             {% for key, topic in sidebar.items() %}
                 <div class="topic">
                     <strong>{{ topic.name }}</strong>
-                    <ul>
+                    <ul class="subtopics">
                         {% for subkey, subtopic in topic.subtopics.items() %}
                             <li>{{ subtopic.name }}
                                 <ul>
@@ -124,7 +153,6 @@
         </div>
     </div>
 
-    <!-- Main Content -->
     <div class="main-content">
         <h2>Main Content</h2>
         <div id="main-content-container">
@@ -156,5 +184,11 @@
         {% endfor %}
         </div>
     </div>
+
+    <script>
+        function toggleSidebar() {
+            document.getElementById("sidebar").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
