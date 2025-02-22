@@ -1,0 +1,199 @@
+{
+    "1.": {
+        "name": "Nuclear and Quantum Physics",
+        "subtopics": {
+            "1.1": {
+                "name": "Fission",
+                "sub-subtopics": {
+                    "1.1.1": "Nuclear fission process",
+                    "1.1.2": "Chain reaction and critical mass",
+                    "1.1.3": "Applications of nuclear fission (nuclear reactors)"
+                }
+            },
+            "1.2": {
+                "name": "Fusion and Stars",
+                "sub-subtopics": {
+                    "1.2.1": "Nuclear fusion and energy production in stars",
+                    "1.2.2": "Stellar nucleosynthesis",
+                    "1.2.3": "Life cycle of stars"
+                }
+            },
+            "1.3": {
+                "name": "Structure of the Atom",
+                "sub-subtopics": {
+                    "1.3.1": "Atomic models (Bohr, quantum model)",
+                    "1.3.2": "Electron configuration and energy levels",
+                    "1.3.3": "Isotopes and atomic mass"
+                }
+            },
+            "1.4": {
+                "name": "Radioactive Decay",
+                "sub-subtopics": {
+                    "1.4.1": "Types of radiation: Alpha, beta, gamma",
+                    "1.4.2": "Half-life and decay constant",
+                    "1.4.3": "Radioactive decay and applications"
+                }
+            }
+        }
+    },
+    "2.": {
+        "name": "Wave Behaviour",
+        "subtopics": {
+            "2.1": {
+                "name": "Wave Model",
+                "sub-subtopics": {
+                    "2.1.1": "Types of waves: Transverse and longitudinal",
+                    "2.1.2": "Properties of waves (amplitude, frequency, wavelength, speed)",
+                    "2.1.3": "Wave equations"
+                }
+            },
+            "2.2": {
+                "name": "Wave Phenomena",
+                "sub-subtopics": {
+                    "2.2.1": "Reflection, refraction, diffraction, and interference",
+                    "2.2.2": "Doppler effect",
+                    "2.2.3": "Standing waves and resonance"
+                }
+            },
+            "2.3": {
+                "name": "Simple Harmonic Motion",
+                "sub-subtopics": {
+                    "2.3.1": "Displacement, velocity, and acceleration in SHM",
+                    "2.3.2": "Energy in SHM",
+                    "2.3.3": "Pendulum and spring systems"
+                }
+            }
+        }
+    },
+    "3.": {
+        "name": "Space, Time, and Motion",
+        "subtopics": {
+            "3.1": {
+                "name": "Work, Energy, and Power",
+                "sub-subtopics": {
+                    "3.1.1": "Power and efficiency",
+                    "3.1.2": "Work done by a force",
+                    "3.1.3": "Kinetic and potential energy",
+                    "3.1.4": "Conservation of mechanical energy"
+                }
+            },
+            "3.2": {
+                "name": "Kinematics",
+                "sub-subtopics": {
+                    "3.2.1": "Scalars and vectors",
+                    "3.2.2": "Displacement, velocity, and acceleration",
+                    "3.2.3": "Equations of motion (constant acceleration)",
+                    "3.2.4": "Graphical analysis of motion"
+                }
+            },
+            "3.3": {
+                "name": "Forces and Momentum",
+                "sub-subtopics": {
+                    "3.3.1": "Newton’s laws of motion",
+                    "3.3.2": "Force, mass, and acceleration",
+                    "3.3.3": "Momentum and impulse",
+                    "3.3.4": "Conservation of momentum",
+                    "3.3.5": "Collisions and explosions"
+                }
+            }
+        }
+    },
+    "4.": {
+        "name": "The Particulate Nature of Matter",
+        "subtopics": {
+            "4.1": {
+                "name": "Thermal Energy Transfers",
+                "sub-subtopics": {
+                    "4.1.1": "Heat and temperature",
+                    "4.1.2": "Specific heat capacity and latent heat",
+                    "4.1.3": "Methods of heat transfer (conduction, convection, radiation)",
+                    "4.1.4": "Thermal expansion"
+                }
+            },
+            "4.2": {
+                "name": "Greenhouse Effect",
+                "sub-subtopics": {
+                    "4.2.1": "Earth's energy balance",
+                    "4.2.2": "Greenhouse gases and their role",
+                    "4.2.3": "Impact of human activity on the greenhouse effect"
+                }
+            },
+            "4.3": {
+                "name": "Gas Laws",
+                "sub-subtopics": {
+                    "4.3.1": "Ideal gas law (PV = nRT)",
+                    "4.3.2": "Boyle’s law, Charles’s law, Avogadro’s law",
+                    "4.3.3": "Real gases and deviations from ideal gas behaviour"
+                }
+            },
+            "4.4": {
+                "name": "Current and Circuits",
+                "sub-subtopics": {
+                    "4.4.1": "Electric charge and current",
+                    "4.4.2": "Ohm’s law and resistivity",
+                    "4.4.3": "Kirchhoff’s laws",
+                    "4.4.4": "Power dissipation in resistors"
+                }
+            }
+        }
+    },
+    "5.": {
+        "name": "Fields",
+        "subtopics": {
+            "5.1": {
+                "name": "Gravitational Fields",
+                "sub-subtopics": {
+                    "5.1.1": "Gravitational force and field strength",
+                    "5.1.2": "Gravitational potential energy",
+                    "5.1.3": "Kepler's laws and orbital mechanics"
+                }
+            },
+            "5.2": {
+                "name": "Electric and Magnetic Fields",
+                "sub-subtopics": {
+                    "5.2.1": "Electric fields and potentials",
+                    "5.2.2": "Magnetic fields and forces",
+                    "5.2.3": "Coulomb's law and Gauss’s law",
+                    "5.2.4": "Applications in motors and electromagnets"
+                }
+            },
+            "5.3": {
+                "name": "Motion in Electromagnetic Fields",
+                "sub-subtopics": {
+                    "5.3.1": "Charge in magnetic fields",
+                    "5.3.2": "Cyclotron and magnetic force on a current",
+                    "5.3.3": "Magnetic flux and induction"
+                }
+            }
+        }
+    },
+    "6.": {
+        "name": "Experimental Programme (Internal Assessment)",
+        "subtopics": {
+            "6.1": {
+                "name": "Practical Work",
+                "sub-subtopics": {
+                    "6.1.1": "Laboratory techniques and safety protocols",
+                    "6.1.2": "Data collection, analysis, and uncertainty in measurements",
+                    "6.1.3": "Writing scientific reports and conclusions"
+                }
+            },
+            "6.2": {
+                "name": "Collaborative Sciences Project",
+                "sub-subtopics": {
+                    "6.2.1": "Collaborative research and experimental work",
+                    "6.2.2": "Communicating scientific findings with others",
+                    "6.2.3": "Working within interdisciplinary teams"
+                }
+            },
+            "6.3": {
+                "name": "Scientific Investigation",
+                "sub-subtopics": {
+                    "6.3.1": "Developing research questions and hypotheses",
+                    "6.3.2": "Designing experiments and gathering data",
+                    "6.3.3": "Data analysis and interpretation of results"
+                }
+            }
+        }
+    }
+}
