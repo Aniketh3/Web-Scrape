@@ -3,14 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Scraper</title>
-    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEuXkf7XY3CSX4rH2BT0LrpMRd2Gmu7jWTvQ&s" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Scraped Content - Page 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 25%;
+            background: #333;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .main-content {
+            width: 75%;
+            padding: 20px;
+            background: white;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        .topic {
+            margin-bottom: 15px;
+        }
+        .subtopics {
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- <h2>Scraped Content</h2> -->
-    <div id="contentContainer">
-        {{ content|safe }}  <!-- Display scraped HTML content -->
+
+    <!-- Sidebar for Topics -->
+    <div class="sidebar">
+        <h2>Topics</h2>
+        <div id="sidebar-container">
+            {% for key, topic in sidebar.items() %}
+                <div class="topic">
+                    <strong>{{ topic.name }}</strong>
+                    <ul>
+                        {% for subkey, subtopic in topic.subtopics.items() %}
+                            <li>{{ subtopic.name }}
+                                <ul>
+                                    {% for item in subtopic["sub-subtopics"] %}
+                                        <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
     </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h2>Main Content</h2>
+        <div id="main-content-container">
+            <p>{{ main_content }}</p>
+        </div>
+    </div>
+
 </body>
 </html>
