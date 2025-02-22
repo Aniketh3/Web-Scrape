@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- <h2>Scraped Content</h2> -->
+    <div id="contentContainer">
+        {{ content|safe }}  <!-- Display scraped HTML content -->
+    </div>
+</body>
+</html>
